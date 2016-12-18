@@ -200,10 +200,8 @@ int main() {
     result[i] = checking(data);
   }
 
-
-  printf("%d", result[0]);
-  for(i = 1; i < numberOfCase; i++) {
-    printf("\n%d", result[i]);
+  for(i = 0; i < numberOfCase; i++) {
+    printf("%d\n", result[i]);
   }
 
   return 0;
